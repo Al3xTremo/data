@@ -1,0 +1,23 @@
+@prefix tgt: <http://example.org/score-target-over-05#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.org/score-target-over-05> a owl:Ontology .
+
+tgt:Contracts a rdfs:Class ;
+    rdfs:label "Contracts"@en .
+
+tgt:Suppliers a rdfs:Class ;
+    rdfs:label "Suppliers"@en .
+
+tgt:PurchaseOrders a rdfs:Class ;
+    rdfs:label "Purchase Orders"@en .
+
+tgt:ContractingAuthorities a rdfs:Class ;
+    rdfs:label "Contracting Authorities"@en .
+
+tgt:AwardDecisions a rdfs:Class ;
+    rdfs:label "Award Decisions"@en .
+
+tgt:TenderDocuments a rdfs:Class ;
+    rdfs:label "Tender Documents"@en .
