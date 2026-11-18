@@ -1,0 +1,23 @@
+@prefix src: <http://example.org/score-source#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.org/score-source> a owl:Ontology .
+
+src:Contract a rdfs:Class ;
+    rdfs:label "Contract"@en .
+
+src:Supplier a rdfs:Class ;
+    rdfs:label "Supplier"@en .
+
+src:PurchaseOrder a rdfs:Class ;
+    rdfs:label "Purchase Order"@en .
+
+src:ContractingAuthority a rdfs:Class ;
+    rdfs:label "Contracting Authority"@en .
+
+src:AwardDecision a rdfs:Class ;
+    rdfs:label "Award Decision"@en .
+
+src:TenderDocument a rdfs:Class ;
+    rdfs:label "Tender Document"@en .
